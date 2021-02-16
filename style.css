@@ -1,0 +1,95 @@
+.a{
+    background-color: orange;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.flex {
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+    min-height: 70vh;
+    margin-bottom: 0px;
+
+}
+
+.b{
+ background-color: rosybrown;
+ background-image: url(Images/Wendu.jpg);
+ background-size: cover;
+ width: 30%;
+ min-height: 50vh;
+}
+
+.c{
+    
+    background-image: url(Images/Sky2.jpg);
+    background-size: cover;
+    width:70%;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    align-self: center;
+    
+}
+
+.d{
+    background-color: rgb(174, 230, 218);
+    display:flex;
+    height:40vh;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+ 
+}
+
+.d1{
+  flex:1;
+  padding: 20px;
+  text-indent: 0px;
+  
+}
+ .d2{
+    flex:1;
+ }
+
+ .d3{
+    flex:1;
+ }
+ .c1{
+     
+     padding-top: 20px;
+ }
+
+ .nav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .nav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .nav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .nav a.active {
+    background-color: #0cee13;
+    color: white;
+  }
+
+  .footer{
+      background-color: orange;
+      display:inline-block;
+      bottom:0px;
+      width:100%;
+  }
